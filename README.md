@@ -13,11 +13,11 @@ To run the project, follow these steps:
 2. Save the provided code in a file named `byteshell.c`.
 3. Compile the code using the following command:
 ``` 
-gcc -o byteshell test.c
+gcc -o byteshell byteshell_test.c
 ```
 4. Run the compiled program:
 ```
-./test
+./byteshell_test
 ```
 
 ## Dependencies
@@ -60,7 +60,7 @@ The ByteShell project is implemented as a simple shell that emulates the behavio
 - The `bytsh_exit` function is responsible for exiting the shell loop when the "exit" command is entered by returning a status value of 0.
 
 ## Learning Takeaways
-Working on the ByteShell project can provide several learning takeaways, including:
+Working on the ByteShell project provided several learning takeaways, including:
 - Understanding the basics of shell programming and command-line interfaces.
 - Learning how to handle user input and execute commands in a shell environment.
 - Gaining familiarity with C programming concepts and practices.
